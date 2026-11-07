@@ -32,3 +32,12 @@ Choose **untimed** for a continuously extended passage. Escape completes the mat
 Open **Companion studio** from the sidebar or companion gear to set a name, hair and outfit colors, skin tone, clothing, accessories, personality, animation/reaction preferences, and a celestial, storm, or phoenix divine form. Settings persist automatically. The studio previews appearances and reactions without altering performance history.
 
 God Mode keeps the typing passage steady while surrounding headings and sidebar lettering tremble and scatter as sustained pace rises. Slowing down reduces the effect, and ending/resetting the session restores everything. Its interactive preview has a pace slider: hold a high pace, ease off, then accelerate again. It stays open until you end it or start typing. Reduced motion is respected.
+
+
+```
+unset GITHUB_TOKEN GH_TOKEN
+gh auth login --hostname github.com --git-protocol https --web
+gh auth setup-git
+gh auth status
+git push -u origin main
+```
